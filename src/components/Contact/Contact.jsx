@@ -81,6 +81,7 @@ export default function Contact() {
       description: "Send us an email anytime",  
     },
     {
+      
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
       value: "+91 6204991247",

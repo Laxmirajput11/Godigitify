@@ -1,0 +1,1099 @@
+# Query: emerald
+# ContextLines: 1
+
+423 results - 23 files
+
+godigitify\src\app\services\app-development\page.jsx:
+  138        {/* Hero Section */}
+  139:       <section className="pb-20 pt-40 bg-gradient-to-br from-purple-50 to-white">
+  140          <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
+
+  142              <div>
+  143:               <Badge className="bg-purple-100 text-purple-700 mb-4">App Development</Badge>
+  144                <h1 className="text-5xl md:text-6xl font-bold text-black mb-6">Custom Mobile App Development</h1>
+
+  149                <div className="flex flex-col sm:flex-row gap-4">
+  150:                 <Button size="lg" className="bg-purple-500 hover:bg-purple-600 text-white">
+  151                    <Link href="/contact">Get Started</Link>
+  152                  </Button>
+  153:                 <Button size="lg" variant="outline" className="border-purple-500 text-purple-500 hover:bg-purple-50">
+  154                    View Portfolio
+
+  172            <div className="text-center mb-16">
+  173:             <Badge className="bg-purple-100 text-purple-700 mb-4">What's Included</Badge>
+  174              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Everything You Need</h2>
+
+  183                  <CardContent className="p-6">
+  184:                   <div className="text-purple-500 mb-4">{feature.icon}</div>
+  185                    <h3 className="text-xl font-bold text-black mb-3">{feature.title}</h3>
+
+  194        {/* Benefits Section */}
+  195:       <section className="py-20 bg-purple-50">
+  196          <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
+
+  198              <div>
+  199:               <Badge className="bg-purple-100 text-purple-700 mb-4">Benefits</Badge>
+  200                <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Why Your Business Needs a Mobile App</h2>
+
+  207                    <li key={index} className="flex items-center">
+  208:                     <CheckCircle className="w-6 h-6 text-purple-500 mr-3" />
+  209                      <span className="text-lg text-gray-700">{benefit}</span>
+
+  228            <div className="text-center mb-16">
+  229:             <Badge className="bg-purple-100 text-purple-700 mb-4">Our Process</Badge>
+  230              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">How We Work</h2>
+
+  242                  <CardContent className="p-6">
+  243:                   <div className="text-3xl font-bold text-purple-500 mb-4">{step.step}</div>
+  244                    <h3 className="text-xl font-bold text-black mb-3">{step.title}</h3>
+
+  256            <div className="text-center mb-16">
+  257:             <Badge className="bg-purple-100 text-purple-700 mb-4">Technology Stack</Badge>
+  258              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Technologies We Use</h2>
+
+  283            <div className="text-center mb-16">
+  284:             <Badge className="bg-purple-100 text-purple-700 mb-4">Portfolio</Badge>
+  285              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Recent App Projects</h2>
+
+  300                    <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+  301:                     <Button className="bg-purple-500 hover:bg-purple-600 text-white">View Project</Button>
+  302                    </div>
+
+  321        {/* FAQ Section */}
+  322:       <section className="py-20 bg-gradient-to-b from-white to-purple-50 relative overflow-hidden">
+  323          <div className="absolute inset-0 overflow-hidden">
+  324            <motion.div
+  325:             className="absolute top-20 left-10 w-16 h-16 bg-purple-100 rounded-full opacity-20"
+  326              animate={{
+
+  336            <motion.div
+  337:             className="absolute bottom-20 right-10 w-24 h-24 bg-purple-200 rounded-full opacity-10"
+  338              animate={{
+
+  357              <motion.div
+  358:               className="inline-flex items-center justify-center bg-purple-100 text-purple-700 px-4 py-2 rounded-full mb-4"
+  359                initial={{ scale: 0.9 }}
+
+  403                    <motion.div animate={{ rotate: activeIndex === index ? 180 : 0 }} transition={{ duration: 0.3 }}>
+  404:                     <ChevronDown className="w-5 h-5 text-purple-500" />
+  405                    </motion.div>
+
+godigitify\src\app\services\digital-marketing\page.jsx:
+  134        {/* Hero Section */}
+  135:       <section className="pb-20 pt-40 bg-gradient-to-br from-purple-50 to-white">
+  136          <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
+
+  138              <div>
+  139:               <Badge className="bg-purple-100 text-purple-700 mb-4">Digital Marketing</Badge>
+  140                <h1 className="text-5xl md:text-6xl font-bold text-black mb-6">
+
+  147                <div className="flex flex-col sm:flex-row gap-4">
+  148:                 <Button size="lg" className="bg-purple-500 hover:bg-purple-600 text-white">
+  149                    <Link href="/contact">Get Started</Link>
+  150                  </Button>
+  151:                 <Button size="lg" variant="outline" className="border-purple-500 text-purple-500 hover:bg-purple-50">
+  152                    View Case Studies
+
+  170            <div className="text-center mb-16">
+  171:             <Badge className="bg-purple-100 text-purple-700 mb-4">What's Included</Badge>
+  172              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Everything You Need</h2>
+
+  182                  <CardContent className="p-6">
+  183:                   <div className="text-purple-500 mb-4">{feature.icon}</div>
+  184                    <h3 className="text-xl font-bold text-black mb-3">{feature.title}</h3>
+
+  193        {/* Benefits Section */}
+  194:       <section className="py-20 bg-purple-50">
+  195          <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
+
+  197              <div>
+  198:               <Badge className="bg-purple-100 text-purple-700 mb-4">Benefits</Badge>
+  199                <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Why Digital Marketing is Essential</h2>
+
+  207                    <li key={index} className="flex items-center">
+  208:                     <CheckCircle className="w-6 h-6 text-purple-500 mr-3" />
+  209                      <span className="text-lg text-gray-700">{benefit}</span>
+
+  228            <div className="text-center mb-16">
+  229:             <Badge className="bg-purple-100 text-purple-700 mb-4">Our Process</Badge>
+  230              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">How We Work</h2>
+
+  243                  <CardContent className="p-6">
+  244:                   <div className="text-3xl font-bold text-purple-500 mb-4">{step.step}</div>
+  245                    <h3 className="text-xl font-bold text-black mb-3">{step.title}</h3>
+
+  257            <div className="text-center mb-16">
+  258:             <Badge className="bg-purple-100 text-purple-700 mb-4">Tools & Platforms</Badge>
+  259              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Tools We Use</h2>
+
+  285            <div className="text-center mb-16">
+  286:             <Badge className="bg-purple-100 text-purple-700 mb-4">Case Studies</Badge>
+  287              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Recent Success Stories</h2>
+
+  302                    <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+  303:                     <Button className="bg-purple-500 hover:bg-purple-600 text-white">View Case Study</Button>
+  304                    </div>
+
+  323        {/* FAQ Section */}
+  324:       <section className="py-20 bg-gradient-to-b from-white to-purple-50 relative overflow-hidden">
+  325          <div className="absolute inset-0 overflow-hidden">
+  326            <motion.div
+  327:             className="absolute top-20 left-10 w-16 h-16 bg-purple-100 rounded-full opacity-20"
+  328              animate={{
+
+  338            <motion.div
+  339:             className="absolute bottom-20 right-10 w-24 h-24 bg-purple-200 rounded-full opacity-10"
+  340              animate={{
+
+  359              <motion.div
+  360:               className="inline-flex items-center justify-center bg-purple-100 text-purple-700 px-4 py-2 rounded-full mb-4"
+  361                initial={{ scale: 0.9 }}
+
+  405                    <motion.div animate={{ rotate: activeIndex === index ? 180 : 0 }} transition={{ duration: 0.3 }}>
+  406:                     <ChevronDown className="w-5 h-5 text-purple-500" />
+  407                    </motion.div>
+
+godigitify\src\app\services\graphic-designing\page.jsx:
+  140        {/* Hero Section */}
+  141:       <section className="pb-20 pt-40 bg-gradient-to-br from-purple-50 to-white">
+  142          <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
+
+  144              <div>
+  145:               <Badge className="bg-purple-100 text-purple-700 mb-4">Graphic Design</Badge>
+  146                <h1 className="text-5xl md:text-6xl font-bold text-black mb-6">Creative Graphic Design Services</h1>
+
+  151                <div className="flex flex-col sm:flex-row gap-4">
+  152:                 <Button size="lg" className="bg-purple-500 hover:bg-purple-600 text-white">
+  153                    <Link href="/contact">Get Started</Link>
+  154                  </Button>
+  155:                 <Button size="lg" variant="outline" className="border-purple-500 text-purple-500 hover:bg-purple-50">
+  156                    View Portfolio
+
+  174            <div className="text-center mb-16">
+  175:             <Badge className="bg-purple-100 text-purple-700 mb-4">What's Included</Badge>
+  176              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Everything You Need</h2>
+
+  186                  <CardContent className="p-6">
+  187:                   <div className="text-purple-500 mb-4">{feature.icon}</div>
+  188                    <h3 className="text-xl font-bold text-black mb-3">{feature.title}</h3>
+
+  197        {/* Benefits Section */}
+  198:       <section className="py-20 bg-purple-50">
+  199          <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
+
+  201              <div>
+  202:               <Badge className="bg-purple-100 text-purple-700 mb-4">Benefits</Badge>
+  203                <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Why Great Design Matters</h2>
+
+  210                    <li key={index} className="flex items-center">
+  211:                     <CheckCircle className="w-6 h-6 text-purple-500 mr-3" />
+  212                      <span className="text-lg text-gray-700">{benefit}</span>
+
+  231            <div className="text-center mb-16">
+  232:             <Badge className="bg-purple-100 text-purple-700 mb-4">Our Process</Badge>
+  233              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">How We Work</h2>
+
+  245                  <CardContent className="p-6">
+  246:                   <div className="text-3xl font-bold text-purple-500 mb-4">{step.step}</div>
+  247                    <h3 className="text-xl font-bold text-black mb-3">{step.title}</h3>
+
+  259            <div className="text-center mb-16">
+  260:             <Badge className="bg-purple-100 text-purple-700 mb-4">Design Tools</Badge>
+  261              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Tools We Use</h2>
+
+  286            <div className="text-center mb-16">
+  287:             <Badge className="bg-purple-100 text-purple-700 mb-4">Portfolio</Badge>
+  288              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Recent Design Projects</h2>
+
+  303                    <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+  304:                     <Button className="bg-purple-500 hover:bg-purple-600 text-white">View Project</Button>
+  305                    </div>
+
+  324        {/* FAQ Section */}
+  325:       <section className="py-20 bg-gradient-to-b from-white to-purple-50 relative overflow-hidden">
+  326          <div className="absolute inset-0 overflow-hidden">
+  327            <motion.div
+  328:             className="absolute top-20 left-10 w-16 h-16 bg-purple-100 rounded-full opacity-20"
+  329              animate={{
+
+  339            <motion.div
+  340:             className="absolute bottom-20 right-10 w-24 h-24 bg-purple-200 rounded-full opacity-10"
+  341              animate={{
+
+  360              <motion.div
+  361:               className="inline-flex items-center justify-center bg-purple-100 text-purple-700 px-4 py-2 rounded-full mb-4"
+  362                initial={{ scale: 0.9 }}
+
+  406                    <motion.div animate={{ rotate: activeIndex === index ? 180 : 0 }} transition={{ duration: 0.3 }}>
+  407:                     <ChevronDown className="w-5 h-5 text-purple-500" />
+  408                    </motion.div>
+
+godigitify\src\app\services\social-media-handeling\page.jsx:
+  134        {/* Hero Section */}
+  135:       <section className="pb-20 pt-40 bg-gradient-to-br from-purple-50 to-white">
+  136          <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
+
+  138              <div>
+  139:               <Badge className="bg-purple-100 text-purple-700 mb-4">Social Media Handling</Badge>
+  140                <h1 className="text-5xl md:text-6xl font-bold text-black mb-6">Professional Social Media Management</h1>
+
+  145                <div className="flex flex-col sm:flex-row gap-4">
+  146:                 <Button size="lg" className="bg-purple-500 hover:bg-purple-600 text-white">
+  147                    <Link href="/contact">Get Started</Link>
+  148                  </Button>
+  149:                 <Button size="lg" variant="outline" className="border-purple-500 text-purple-500 hover:bg-purple-50">
+  150                    View Our Work
+
+  168            <div className="text-center mb-16">
+  169:             <Badge className="bg-purple-100 text-purple-700 mb-4">What's Included</Badge>
+  170              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Everything You Need</h2>
+
+  180                  <CardContent className="p-6">
+  181:                   <div className="text-purple-500 mb-4">{feature.icon}</div>
+  182                    <h3 className="text-xl font-bold text-black mb-3">{feature.title}</h3>
+
+  191        {/* Benefits Section */}
+  192:       <section className="py-20 bg-purple-50">
+  193          <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
+
+  195              <div>
+  196:               <Badge className="bg-purple-100 text-purple-700 mb-4">Benefits</Badge>
+  197                <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
+
+  207                    <li key={index} className="flex items-center">
+  208:                     <CheckCircle className="w-6 h-6 text-purple-500 mr-3" />
+  209                      <span className="text-lg text-gray-700">{benefit}</span>
+
+  228            <div className="text-center mb-16">
+  229:             <Badge className="bg-purple-100 text-purple-700 mb-4">Our Process</Badge>
+  230              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">How We Work</h2>
+
+  243                  <CardContent className="p-6">
+  244:                   <div className="text-3xl font-bold text-purple-500 mb-4">{step.step}</div>
+  245                    <h3 className="text-xl font-bold text-black mb-3">{step.title}</h3>
+
+  257            <div className="text-center mb-16">
+  258:             <Badge className="bg-purple-100 text-purple-700 mb-4">Platforms</Badge>
+  259              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Platforms We Manage</h2>
+
+  284            <div className="text-center mb-16">
+  285:             <Badge className="bg-purple-100 text-purple-700 mb-4">Our Work</Badge>
+  286              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Recent Management Projects</h2>
+
+  301                    <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+  302:                     <Button className="bg-purple-500 hover:bg-purple-600 text-white">View Account</Button>
+  303                    </div>
+
+  322        {/* FAQ Section */}
+  323:       <section className="py-20 bg-gradient-to-b from-white to-purple-50 relative overflow-hidden">
+  324          <div className="absolute inset-0 overflow-hidden">
+  325            <motion.div
+  326:             className="absolute top-20 left-10 w-16 h-16 bg-purple-100 rounded-full opacity-20"
+  327              animate={{
+
+  337            <motion.div
+  338:             className="absolute bottom-20 right-10 w-24 h-24 bg-purple-200 rounded-full opacity-10"
+  339              animate={{
+
+  358              <motion.div
+  359:               className="inline-flex items-center justify-center bg-purple-100 text-purple-700 px-4 py-2 rounded-full mb-4"
+  360                initial={{ scale: 0.9 }}
+
+  404                    <motion.div animate={{ rotate: activeIndex === index ? 180 : 0 }} transition={{ duration: 0.3 }}>
+  405:                     <ChevronDown className="w-5 h-5 text-purple-500" />
+  406                    </motion.div>
+
+godigitify\src\app\services\social-media-marketing\page.jsx:
+  134        {/* Hero Section */}
+  135:       <section className="pb-20 pt-40 bg-gradient-to-br from-purple-50 to-white">
+  136          <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
+
+  138              <div>
+  139:               <Badge className="bg-purple-100 text-purple-700 mb-4">Social Media Marketing</Badge>
+  140                <h1 className="text-5xl md:text-6xl font-bold text-black mb-6">
+
+  147                <div className="flex flex-col sm:flex-row gap-4">
+  148:                 <Button size="lg" className="bg-purple-500 hover:bg-purple-600 text-white">
+  149                    <Link href="/contact">Get Started</Link>
+  150                  </Button>
+  151:                 <Button size="lg" variant="outline" className="border-purple-500 text-purple-500 hover:bg-purple-50">
+  152                    View Case Studies
+
+  170            <div className="text-center mb-16">
+  171:             <Badge className="bg-purple-100 text-purple-700 mb-4">What's Included</Badge>
+  172              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Everything You Need</h2>
+
+  182                  <CardContent className="p-6">
+  183:                   <div className="text-purple-500 mb-4">{feature.icon}</div>
+  184                    <h3 className="text-xl font-bold text-black mb-3">{feature.title}</h3>
+
+  193        {/* Benefits Section */}
+  194:       <section className="py-20 bg-purple-50">
+  195          <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
+
+  197              <div>
+  198:               <Badge className="bg-purple-100 text-purple-700 mb-4">Benefits</Badge>
+  199                <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Why Social Media Marketing Matters</h2>
+
+  207                    <li key={index} className="flex items-center">
+  208:                     <CheckCircle className="w-6 h-6 text-purple-500 mr-3" />
+  209                      <span className="text-lg text-gray-700">{benefit}</span>
+
+  228            <div className="text-center mb-16">
+  229:             <Badge className="bg-purple-100 text-purple-700 mb-4">Our Process</Badge>
+  230              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">How We Work</h2>
+
+  242                  <CardContent className="p-6">
+  243:                   <div className="text-3xl font-bold text-purple-500 mb-4">{step.step}</div>
+  244                    <h3 className="text-xl font-bold text-black mb-3">{step.title}</h3>
+
+  256            <div className="text-center mb-16">
+  257:             <Badge className="bg-purple-100 text-purple-700 mb-4">Platforms</Badge>
+  258              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Platforms We Manage</h2>
+
+  283            <div className="text-center mb-16">
+  284:             <Badge className="bg-purple-100 text-purple-700 mb-4">Case Studies</Badge>
+  285              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Recent Success Stories</h2>
+
+  301                    <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+  302:                     <Button className="bg-purple-500 hover:bg-purple-600 text-white">View Case Study</Button>
+  303                    </div>
+
+  322        {/* FAQ Section */}
+  323:       <section className="py-20 bg-gradient-to-b from-white to-purple-50 relative overflow-hidden">
+  324          <div className="absolute inset-0 overflow-hidden">
+  325            <motion.div
+  326:             className="absolute top-20 left-10 w-16 h-16 bg-purple-100 rounded-full opacity-20"
+  327              animate={{
+
+  337            <motion.div
+  338:             className="absolute bottom-20 right-10 w-24 h-24 bg-purple-200 rounded-full opacity-10"
+  339              animate={{
+
+  358              <motion.div
+  359:               className="inline-flex items-center justify-center bg-purple-100 text-purple-700 px-4 py-2 rounded-full mb-4"
+  360                initial={{ scale: 0.9 }}
+
+  404                    <motion.div animate={{ rotate: activeIndex === index ? 180 : 0 }} transition={{ duration: 0.3 }}>
+  405:                     <ChevronDown className="w-5 h-5 text-purple-500" />
+  406                    </motion.div>
+
+godigitify\src\app\services\web-development\page.jsx:
+  140        {/* Hero Section */}
+  141:       <section className="pb-20 pt-40 bg-gradient-to-br from-purple-50 to-white">
+  142          <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
+
+  144              <div>
+  145:               <Badge className="bg-purple-100 text-purple-700 mb-4">Web Development</Badge>
+  146                <h1 className="text-5xl md:text-6xl font-bold text-black mb-6">Custom Website Development</h1>
+
+  151                <div className="flex flex-col sm:flex-row gap-4">
+  152:                 <Button size="lg" className="bg-purple-500 hover:bg-purple-600 text-white">
+  153                    <Link href="/contact">Get Started</Link>
+  154                  </Button>
+  155:                 <Button size="lg" variant="outline" className="border-purple-500 text-purple-500 hover:bg-purple-50">
+  156                    View Portfolio
+
+  174            <div className="text-center mb-16">
+  175:             <Badge className="bg-purple-100 text-purple-700 mb-4">What's Included</Badge>
+  176              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Everything You Need</h2>
+
+  185                  <CardContent className="p-6">
+  186:                   <div className="text-purple-500 mb-4">{feature.icon}</div>
+  187                    <h3 className="text-xl font-bold text-black mb-3">{feature.title}</h3>
+
+  196        {/* Benefits Section */}
+  197:       <section className="py-20 bg-purple-50">
+  198          <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
+
+  200              <div>
+  201:               <Badge className="bg-purple-100 text-purple-700 mb-4">Benefits</Badge>
+  202                <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Why Your Business Needs a Website</h2>
+
+  209                    <li key={index} className="flex items-center">
+  210:                     <CheckCircle className="w-6 h-6 text-purple-500 mr-3" />
+  211                      <span className="text-lg text-gray-700">{benefit}</span>
+
+  230            <div className="text-center mb-16">
+  231:             <Badge className="bg-purple-100 text-purple-700 mb-4">Our Process</Badge>
+  232              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">How We Work</h2>
+
+  244                  <CardContent className="p-6">
+  245:                   <div className="text-3xl font-bold text-purple-500 mb-4">{step.step}</div>
+  246                    <h3 className="text-xl font-bold text-black mb-3">{step.title}</h3>
+
+  258            <div className="text-center mb-16">
+  259:             <Badge className="bg-purple-100 text-purple-700 mb-4">Technology Stack</Badge>
+  260              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Technologies We Use</h2>
+
+  285            <div className="text-center mb-16">
+  286:             <Badge className="bg-purple-100 text-purple-700 mb-4">Portfolio</Badge>
+  287              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Recent Web Projects</h2>
+
+  302                    <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+  303:                     <Button className="bg-purple-500 hover:bg-purple-600 text-white">View Project</Button>
+  304                    </div>
+
+  323        {/* FAQ Section */}
+  324:       <section className="py-20 bg-gradient-to-b from-white to-purple-50 relative overflow-hidden">
+  325        {/* Decorative elements */}
+
+  327          <motion.div 
+  328:           className="absolute top-20 left-10 w-16 h-16 bg-purple-100 rounded-full opacity-20"
+  329            animate={{
+
+  339          <motion.div 
+  340:           className="absolute bottom-20 right-10 w-24 h-24 bg-purple-200 rounded-full opacity-10"
+  341            animate={{
+
+  361            <motion.div
+  362:             className="inline-flex items-center justify-center bg-purple-100 text-purple-700 px-4 py-2 rounded-full mb-4"
+  363              initial={{ scale: 0.9 }}
+
+  411                  >
+  412:                   <ChevronDown className="w-5 h-5 text-purple-500" />
+  413                  </motion.div>
+
+godigitify\src\components\About\About.jsx:
+   88      <div className='min-h-screen bg-white '>
+   89:        <section id="about" className="py-20 bg-purple-50">
+   90                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+   92                    <div>
+   93:                     <Badge className="bg-purple-100 text-purple-700 mb-4">About Us</Badge>
+   94                      <h2 className="text-2xl md:text-5xl font-bold text-black mb-6">
+
+  103                        <div className="flex items-center">
+  104:                         <Users className="w-8 h-8 text-purple-500 mr-3" />
+  105                          <div>
+
+  110                        <div className="flex items-center">
+  111:                         <Target className="w-8 h-8 text-purple-500 mr-3" />
+  112                          <div>
+
+  117                        <div className="flex items-center">
+  118:                         <Zap className="w-8 h-8 text-purple-500 mr-3" />
+  119                          <div>
+
+  124                        <div className="flex items-center">
+  125:                         <Award className="w-8 h-8 text-purple-500 mr-3" />
+  126                          <div>
+
+  132        
+  133:                     <Button className="bg-purple-500 hover:bg-purple-600 text-white">Learn More About Us</Button>
+  134                    </div>
+
+  146                              <h4 className="font-bold text-black text-sm">{member.name}</h4>
+  147:                             <p className="text-purple-500 text-xs mb-2">{member.role}</p>
+  148                              <p className="text-gray-600 text-xs">{member.bio}</p>
+
+godigitify\src\components\About\Hero.jsx:
+  11              <motion.div
+  12:                 className="absolute top-[-80px] left-[-80px] w-72 h-72 bg-purple-100 rounded-full opacity-30 blur-2xl z-0"
+  13                  animate={{ scale: [1, 1.15, 1], x: [0, 40, 0], y: [0, 30, 0] }}
+
+  16              <motion.div
+  17:                 className="absolute bottom-[-100px] right-[-100px] w-96 h-96 bg-purple-200 rounded-full opacity-20 blur-3xl z-0"
+  18                  animate={{ scale: [1, 1.08, 1], x: [0, -40, 0], y: [0, -30, 0] }}
+
+  21              <motion.div
+  22:                 className="absolute left-1/2 top-1/4 w-16 h-16 rounded-full bg-purple-50 opacity-40 blur-xl z-0"
+  23                  animate={{ y: [0, -30, 0], x: [0, 20, 0] }}
+
+  33                  <motion.span
+  34:                     className="inline-block bg-purple-100 text-purple-700 px-4 py-1 rounded-full text-base font-medium mb-2 mt-4 shadow"
+  35                      initial={{ opacity: 0, y: -10 }}
+
+  47                      <span className="block">Who We Are</span>
+  48:                     <span className="text-purple-600 block">Passionate Digital Innovators</span>
+  49                  </motion.h1>
+
+  64                  >
+  65:                     <div className="flex-1 bg-white/80 border border-purple-100 rounded-lg shadow-sm p-4 flex items-center gap-3 justify-center">
+  66:                         <Code className="w-6 h-6 text-purple-500" />
+  67                          <div>
+
+  71                      </div>
+  72:                     <div className="flex-1 bg-white/80 border border-purple-100 rounded-lg shadow-sm p-4 flex items-center gap-3 justify-center">
+  73:                         <Palette className="w-6 h-6 text-purple-500" />
+  74                          <div>
+
+  78                      </div>
+  79:                     <div className="flex-1 bg-white/80 border border-purple-100 rounded-lg shadow-sm p-4 flex items-center gap-3 justify-center">
+  80:                         <TrendingUp className="w-6 h-6 text-purple-500" />
+  81                          <div>
+
+  96                          size="lg"
+  97:                         className="bg-purple-600 hover:bg-purple-700 text-white shadow-lg shadow-purple-500/20 transition-all"
+  98                      >
+
+godigitify\src\components\About\Journey.jsx:
+   15        description: "Started as a freelance developer with a vision to help small businesses go digital.",
+   16:       icon: <Lightbulb className="w-5 h-5 text-purple-500" />
+   17      },
+
+   21        description: "Landed our first enterprise client and delivered a complete digital transformation.",
+   22:       icon: <Target className="w-5 h-5 text-purple-500" />
+   23      },
+
+   27        description: "Grew the team to include designers, developers, and marketing specialists.",
+   28:       icon: <Users className="w-5 h-5 text-purple-500" />
+   29      },
+
+   33        description: "Reached the milestone of 100 successful projects across various industries.",
+   34:       icon: <Badge className="bg-purple-500 text-white">100+</Badge>
+   35      },
+
+   39        description: "Received 'Best Digital Agency' award from the local business community.",
+   40:       icon: <Heart className="w-5 h-5 text-purple-500" />
+   41      },
+
+   46        icon: (
+   47:         <svg className="w-5 h-5 text-purple-500" viewBox="0 0 24 24" fill="none">
+   48            <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20ZM8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16C9.79 16 8 14.21 8 12Z" fill="currentColor"/>
+
+   72        <motion.svg 
+   73:         className="absolute top-0 left-0 w-32 h-32 text-purple-50"
+   74          viewBox="0 0 200 200"
+
+   92          <div className="text-center mb-16">
+   93:                     <Badge className="bg-purple-100 text-purple-700 mb-4">Our Journey</Badge>
+   94                      <h2 className="lg:text-4xl text-2xl md:text-5xl font-bold text-black mb-6">What We Do Best</h2>
+
+  100          {/* Timeline connector */}
+  101:         <div className="hidden lg:block absolute left-1/2 top-60 bottom-40 w-1 bg-purple-100 rounded-full -translate-x-1/2"></div>
+  102          
+
+  111                {/* Connector dots for desktop */}
+  112:               {/* <div className="hidden lg:block absolute -left-10 top-8 w-4 h-4 bg-purple-500 rounded-full -translate-x-1/2"></div> */}
+  113                
+
+  116                    <div className="flex items-center gap-3 mb-3">
+  117:                     <div className="text-2xl font-bold text-purple-500">{item.label}</div>
+  118:                     <div className="flex-1 h-px bg-purple-100"></div>
+  119:                     <div className="flex items-center justify-center w-8 h-8 rounded-full bg-purple-50">
+  120                        {item.icon}
+
+  135        <motion.svg 
+  136:         className="absolute bottom-0 right-0 w-40 h-40 text-purple-50"
+  137          viewBox="0 0 200 200"
+
+godigitify\src\components\About\Process.jsx:
+   92  
+   93:   const primaryColor = "#10b981" // purple-500
+   94:   const secondaryColor = "#d1fae5" // purple-100
+   95    const darkColor = "#1f2937" // Gray-800
+
+  145          {/* Decorative background elements */}
+  146:         <div className="absolute top-0 right-0 w-64 h-64 bg-purple-50 rounded-full opacity-20 -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
+  147:         <div className="absolute bottom-0 left-0 w-80 h-80 bg-purple-50 rounded-full opacity-20 translate-y-1/2 -translate-x-1/2 blur-3xl"></div>
+  148  
+
+  150            <div className="inline-block mb-3">
+  151:             <span className="px-3 py-1 bg-purple-50 text-purple-800 text-sm font-medium rounded-full">
+  152                Enterprise Methodology
+
+  177                    className={`bg-white rounded-lg shadow-md overflow-hidden border-2 transition-all duration-300 h-full ${
+  178:                     activeStep === index ? "border-purple-400" : "border-transparent"
+  179                    }`}
+
+  227                  className={`w-2.5 h-2.5 rounded-full transition-all ${
+  228:                   activeStep === idx ? "bg-purple-500" : "bg-gray-300"
+  229                  }`}
+
+  402              <div className="md:flex">
+  403:               <div className="md:w-2/5 h-48 md:h-auto relative bg-gradient-to-br from-purple-50 to-purple-100">
+  404                  <div
+
+  447                          className={`w-2.5 h-2.5 rounded-full transition-all ${
+  448:                           activeStep === idx ? "bg-purple-500" : "bg-gray-300 hover:bg-gray-400"
+  449                          }`}
+
+godigitify\src\components\About\Values.jsx:
+   8    return (
+   9:     <section className="relative py-12 bg-gradient-to-br from-purple-50 via-white to-purple-100 overflow-hidden flex items-center justify-center">
+  10        {/* Animated background blobs */}
+  11        <motion.div
+  12:         className="absolute -top-24 -left-24 w-80 h-80 bg-purple-200 rounded-full opacity-30 blur-3xl z-0"
+  13          animate={{ scale: [1, 1.1, 1], x: [0, 30, 0], y: [0, 20, 0] }}
+
+  16        <motion.div
+  17:         className="absolute bottom-0 right-0 w-96 h-96 bg-purple-400 rounded-full opacity-10 blur-3xl z-0"
+  18          animate={{ scale: [1, 1.08, 1], x: [0, -40, 0], y: [0, -30, 0] }}
+
+  55                size="lg"
+  56:               className="bg-purple-600 hover:bg-purple-700 text-white cursor-pointer px-8 py-4 text-lg rounded-full shadow-lg transition-all flex items-center gap-2"
+  57              >
+
+godigitify\src\components\About\Vision.jsx:
+   56            <div className="flex mb-2 md:mb-5 items-center">
+   57:             <span className="border-l-2 border-purple-500 h-6 mr-3"></span>
+   58:             <h1 className="text-lg font-bold text-purple-700">OUR PHILOSOPHY</h1>
+   59            </div>
+
+   61              Our principles and
+   62:             <span className='text-purple-600 text-4xl md:text-7xl md:py-3 block'>convictions</span>
+   63            </h1>
+
+   75            <div className="md:w-1/3 h-full flex justify-center pb-7 md:pb-0">
+   76:             <h1 className='md:text-5xl text-2xl font-semibold text-purple-700'>MISSION</h1>
+   77            </div>
+
+   82                    <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+   83:                     <div className="h-full w-1 bg-purple-200 pointer-events-none"></div>
+   84                    </div>
+   85:                   <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple-500 text-white relative z-10 title-font font-medium text-sm">{item.number}</div>
+   86                    <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+   87:                     <div className="flex-shrink-0 w-10 h-10 text-purple-500 bg-purple-100 rounded-full inline-flex items-center justify-center">
+   88                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+
+  109                    <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+  110:                     <div className="h-full w-1 bg-purple-200 pointer-events-none"></div>
+  111                    </div>
+  112:                   <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-purple-500 text-white relative z-10 title-font font-medium text-sm">{item.number}</div>
+  113                    <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+  114:                     <div className="flex-shrink-0 w-10 h-10 text-purple-500 bg-purple-100 rounded-full inline-flex items-center justify-center">
+  115                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+
+  128            <div className="md:w-1/3 h-full flex justify-center">
+  129:             <h1 className='md:text-5xl text-2xl font-semibold text-purple-700 text-center'>VISION</h1>
+  130            </div>
+
+godigitify\src\components\Contact\Contact.jsx:
+  146                        <div className="flex items-start">
+  147:                         <div className="text-purple-500 mr-4 mt-1">{info.icon}</div>
+  148                          <div>
+
+  167                        variant="outline"
+  168:                       className="border-purple-500 text-purple-500 hover:bg-purple-500 hover:text-white transition-colors duration-300"
+  169                        asChild
+
+  180              <div className="mt-8 ">
+  181:                 <Card className="border-purple-200 bg-purple-50 ">
+  182                      <CardContent className="p-4 sm:p-6">
+  183                          <div className="flex flex-col sm:flex-row items-start sm:items-center">
+  184:                             <MessageCircle className="w-8 h-8 text-purple-500 mr-0 sm:mr-4 mb-2 sm:mb-0" />
+  185                              <div className="flex-1 mb-3 sm:mb-0">
+
+  190                                  asChild
+  191:                                 className="w-full sm:w-auto bg-purple-500 hover:bg-purple-600 text-white cursor-pointer mt-2 sm:mt-0"
+  192                              >
+
+  212                  {/* {isSubmitted && (
+  213:                   <div className="mb-6 p-4 bg-purple-50 border border-purple-200 rounded-lg flex items-center">
+  214:                     <CheckCircle className="w-5 h-5 text-purple-500 mr-2" />
+  215:                     <span className="text-purple-700">Message sent successfully! We'll get back to you soon.</span>
+  216                    </div> */}
+
+  228                          required
+  229:                         className="border-gray-300 focus:border-purple-500 focus:ring-purple-500"
+  230                        />
+
+  239                          required
+  240:                         className="border-gray-300 focus:border-purple-500 focus:ring-purple-500"
+  241                        />
+
+  253                        required
+  254:                       className="border-gray-300 focus:border-purple-500 focus:ring-purple-500"
+  255                      />
+
+  266                        placeholder="+1 (555) 123-4567"
+  267:                       className="border-gray-300 focus:border-purple-500 focus:ring-purple-500"
+  268                      />
+
+  277                        onChange={handleChange}
+  278:                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
+  279                      >
+
+  299                        required
+  300:                       className="border-gray-300 focus:border-purple-500 focus:ring-purple-500"
+  301                      />
+
+  305                      type="submit"
+  306:                     className="w-full cursor-pointer bg-purple-500 hover:bg-purple-600 text-white py-3 text-lg group"
+  307                    >
+
+godigitify\src\components\Contact\Hero.jsx:
+  11              <motion.div
+  12:                 className="absolute top-[-80px] left-[-80px] w-72 h-72 bg-purple-100 rounded-full opacity-30 blur-2xl z-0"
+  13                  animate={{ scale: [1, 1.15, 1], x: [0, 40, 0], y: [0, 30, 0] }}
+
+  16              <motion.div
+  17:                 className="absolute bottom-[-100px] right-[-100px] w-96 h-96 bg-purple-200 rounded-full opacity-20 blur-3xl z-0"
+  18                  animate={{ scale: [1, 1.08, 1], x: [0, -40, 0], y: [0, -30, 0] }}
+
+  21              <motion.div
+  22:                 className="absolute left-1/2 top-1/4 w-16 h-16 rounded-full bg-purple-50 opacity-40 blur-xl z-0"
+  23                  animate={{ y: [0, -30, 0], x: [0, 20, 0] }}
+
+  33                  <motion.span
+  34:                     className="inline-block bg-purple-100 text-purple-700 px-4 py-1 rounded-full text-base font-medium mb-2 mt-4 shadow"
+  35                      initial={{ opacity: 0, y: -10 }}
+
+  47                      <span className="block">Get in Touch</span>
+  48:                     <span className="text-purple-600 block">We're Here to Help</span>
+  49                  </motion.h1>
+
+  64                  >
+  65:                     <div className="flex-1 bg-white/80 border border-purple-100 rounded-lg shadow-sm p-4 flex items-center gap-3 justify-center">
+  66:                         <Mail className="w-6 h-6 text-purple-500" />
+  67                          <div>
+
+  71                      </div>
+  72:                     <div className="flex-1 bg-white/80 border border-purple-100 rounded-lg shadow-sm p-4 flex items-center gap-3 justify-center">
+  73:                         <Phone className="w-6 h-6 text-purple-500" />
+  74                          <div>
+
+  78                      </div>
+  79:                     <div className="flex-1 bg-white/80 border border-purple-100 rounded-lg shadow-sm p-4 flex items-center gap-3 justify-center">
+  80:                         <MapPin className="w-6 h-6 text-purple-500" />
+  81                          <div>
+
+  96                          size="lg"
+  97:                         className="bg-purple-600 hover:bg-purple-700 text-white shadow-lg shadow-purple-500/20 transition-all"
+  98                      >
+
+godigitify\src\components\Globals\Footer.jsx:
+   53                          <div className="flex space-x-4">
+   54:                             <Button size="icon" variant="ghost" className="text-gray-600 hover:text-purple-600">
+   55                                  <Twitter className="w-4 h-4" />
+   56                              </Button>
+   57:                             <Button size="icon" variant="ghost" className="text-gray-600 hover:text-purple-600">
+   58                                  <Linkedin className="w-4 h-4" />
+   59                              </Button>
+   60:                             <Button size="icon" variant="ghost" className="text-gray-600 hover:text-purple-600">
+   61                                  <Github className="w-4 h-4" />
+
+   68                              <li>
+   69:                                 <a href="/services/web-development" className="hover:text-purple-600 transition-colors">
+   70                                      Web Development
+
+   73                              <li>
+   74:                                 <a href="/services/App-development" className="hover:text-purple-600 transition-colors">
+   75                                      App Development
+
+   78                              <li>
+   79:                                 <a href="/services/graphic-designing" className="hover:text-purple-600 transition-colors">
+   80                                      Graphic Designing
+
+   83                              <li>
+   84:                                 <a href="/services/digital-marketing" className="hover:text-purple-600 transition-colors">
+   85                                      Digital Marketing
+
+   93                              <li>
+   94:                                 <a href="/about" className="hover:text-purple-600 transition-colors">
+   95                                      About Us
+
+   98                              <li>
+   99:                                 <a href="/about" className="hover:text-purple-600 transition-colors">
+  100                                      Our Team
+
+  103                              <li>
+  104:                                 <a href="services" className="hover:text-purple-600 transition-colors">
+  105                                      Services
+
+  108                              <li>
+  109:                                 <a href="contact" className="hover:text-purple-600 transition-colors">
+  110                                      Contact
+
+  121                              <Input placeholder="Your email" className="rounded-r-none" />
+  122:                             <Button className="bg-purple-600 hover:bg-purple-700 rounded-l-none text-white">
+  123                                  Subscribe
+
+godigitify\src\components\Globals\Navbar.jsx:
+   75                                              isActive(item.href)
+   76:                                                 ? "bg-purple-600 text-white shadow-md scale-105"
+   77:                                                 : "text-semibold hover:bg-purple-50 hover:text-purple-600"
+   78                                          }
+
+  100                      <div className="hidden md:block cursor-pointer">
+  101:                         <Button className="bg-purple-500 hover:bg-purple-600 text-white">Get Started</Button>
+  102                      </div>
+
+  107                              onClick={() => setIsMenuOpen(!isMenuOpen)}
+  108:                             className="text-black hover:text-purple-600 transition-colors duration-200"
+  109                          >
+
+  127                                          isActive(item.href)
+  128:                                             ? "bg-purple-100 text-purple-700"
+  129:                                             : "text-black hover:bg-purple-50 hover:text-purple-600"
+  130                                      }
+
+godigitify\src\components\Home\Process.jsx:
+  146          {/* Decorative background elements */}
+  147:         <div className="absolute top-0 right-0 w-64 h-64 bg-purple-50 rounded-full opacity-20 -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
+  148:         <div className="absolute bottom-0 left-0 w-80 h-80 bg-purple-50 rounded-full opacity-20 translate-y-1/2 -translate-x-1/2 blur-3xl"></div>
+  149  
+
+  151            <div className="inline-block mb-3">
+  152:             <span className="px-3 py-1 bg-purple-50 text-purple-800 text-sm font-medium rounded-full">
+  153                Enterprise Methodology
+
+  185                      activeStep === index
+  186:                       ? "border-purple-400"
+  187                        : "border-transparent"
+
+  243                  className={`w-2.5 h-2.5 rounded-full transition-all ${
+  244:                   activeStep === idx ? "bg-purple-500" : "bg-gray-300"
+  245                  }`}
+
+  442              <div className="md:flex">
+  443:               <div className="md:w-2/5 h-48 md:h-auto relative bg-gradient-to-br from-purple-50 to-purple-100">
+  444                  <div
+
+  496                            activeStep === idx
+  497:                             ? "bg-purple-500"
+  498                              : "bg-gray-300 hover:bg-gray-400"
+
+  550          <div className="absolute inset-0 bg-white w-full h-full"></div>
+  551:         <div className="absolute top-0 right-0 w-64 h-64 bg-purple-100 rounded-full opacity-30 -translate-y-1/2 translate-x-1/2 blur-3xl animate-pulse"></div>
+  552:         <div className="absolute bottom-0 left-0 w-48 h-48 bg-purple-50 rounded-full opacity-40 translate-y-1/2 -translate-x-1/2 blur-2xl animate-pulse"></div>
+  553:         <div className="absolute top-1/4 right-1/3 w-16 h-16 bg-purple-300 rounded-full opacity-15 animate-pulse"></div>
+  554  
+  555          {/* Floating geometric shapes */}
+  556:         <div className="absolute top-20 left-10 w-6 h-6 bg-purple-400 rotate-45 opacity-20 animate-spin-slow"></div>
+  557:         <div className="absolute bottom-32 right-20 w-4 h-4 bg-purple-500 rounded-full opacity-25 animate-bounce"></div>
+  558  
+
+  576                    <div className="relative w-full max-w-[350px] aspect-[3/4] flex items-center">
+  577:                     <div className="absolute inset-0 bg-gradient-to-br from-purple-100 to-purple-200 rounded-3xl rotate-3 opacity-50"></div>
+  578                      <img
+
+  584                      {/* Single Card - Experience */}
+  585:                     <div className="absolute -top-3 -right-3 bg-white rounded-xl shadow-lg p-3 border border-purple-100 animate-float">
+  586                        <div className="flex items-center gap-2">
+  587:                         <div className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center">
+  588:                           <Code className="w-4 h-4 text-purple-600" />
+  589                          </div>
+
+  615                      </h3>
+  616:                     <p className="text-lg text-purple-600 font-semibold mb-2">
+  617                        Full-Stack Web & App Developer
+
+  628                      <h4 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+  629:                       <Code className="w-4 h-4 text-purple-600" />
+  630                        Skills
+
+  637                          >
+  638:                           <span className="flex items-center justify-center w-5 h-5 rounded-full border-2 border-purple-500 bg-white">
+  639:                             <CheckCircle className="w-3 h-3 text-purple-500" />
+  640                            </span>
+
+  651                      <h4 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+  652:                       <Rocket className="w-4 h-4 text-purple-600" />
+  653                        Featured Projects
+
+  679                          >
+  680:                           <div className="h-16 bg-gradient-to-br from-purple-50 to-purple-100 rounded-md mb-2 flex items-center justify-center">
+  681:                             <Code className="w-6 h-6 text-purple-600" />
+  682                            </div>
+
+  692                                  key={tech}
+  693:                                 className="px-1.5 py-0.5 bg-purple-50 text-purple-700 text-xs font-medium rounded"
+  694                                >
+
+  706                      <h4 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+  707:                       <Award className="w-4 h-4 text-purple-600" />
+  708                        Achievements
+
+  712                          {
+  713:                           icon: <Award className="w-5 h-5 text-purple-600" />,
+  714                            title: "Best Developer 2023",
+
+  717                          {
+  718:                           icon: <User className="w-5 h-5 text-purple-600" />,
+  719                            title: "Mentor of the Year",
+
+  723                          {
+  724:                           icon: <Rocket className="w-5 h-5 text-purple-600" />,
+  725                            title: "Innovation Award",
+
+  733                            <div className="flex items-start gap-2">
+  734:                             <div className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
+  735                                {achievement.icon}
+
+  757                      >
+  758:                       <button className="w-full mb-4 cursor-pointer px-4 py-2 bg-gradient-to-r from-purple-500 to-purple-600 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 text-sm group">
+  759                          <User className="w-4 h-4" />
+
+godigitify\src\components\Home\WhyUs.jsx:
+   42      return (
+   43:         <section className="relative py-20 bg-gradient-to-br from-purple-50 via-white to-purple-100 overflow-hidden">
+   44              {/* Decorative blurred circles */}
+   45              <motion.div
+   46:                 className="absolute -top-16 -left-16 w-56 h-56 bg-purple-100 rounded-full opacity-30 blur-2xl"
+   47                  animate={{ scale: [1, 1.1, 1] }}
+
+   50              <motion.div
+   51:                 className="absolute bottom-0 right-0 w-72 h-72 bg-purple-200 rounded-full opacity-20 blur-3xl"
+   52                  animate={{ scale: [1, 1.08, 1] }}
+
+   56                  <div className="text-center mb-16">
+   57:                     <Badge className="bg-purple-100 text-purple-700 mb-4 text-base px-4 py-2 shadow-sm">
+   58                          Why Choose Us
+
+   91                                          <motion.div
+   92:                                             className="flex-shrink-0 w-16 h-16 rounded-full bg-white border-4 border-purple-100 flex items-center justify-center shadow-lg group-hover:bg-purple-50 transition-colors duration-300"
+   93                                              whileHover={{ scale: 1.1, rotate: 8 }}
+
+   95                                          >
+   96:                                             <span className="text-purple-500">{item.icon}</span>
+   97                                          </motion.div>
+
+   99                                          {index !== whyChooseUs.length - 1 && (
+  100:                                             <div className="w-1 h-8 bg-gradient-to-b from-purple-200 to-purple-400 opacity-40 rounded-full mt-2" />
+  101                                          )}
+
+  103                                      {/* Content */}
+  104:                                     <div className="bg-white/80 backdrop-blur-md rounded-xl px-6 py-4 mt-4 shadow-md border border-purple-50 w-full group-hover:bg-purple-50/60 transition-colors duration-300">
+  105:                                         <h3 className="text-lg md:text-lg font-bold text-black mb-1 group-hover:text-purple-600 transition-colors duration-300">
+  106                                              {item.title}
+
+godigitify\src\components\Services\Faq.jsx:
+   37    return (
+   38:     <section className="py-20 bg-gradient-to-b from-white to-purple-50 relative overflow-hidden">
+   39        {/* Decorative elements */}
+
+   41          <motion.div 
+   42:           className="absolute top-20 left-10 w-16 h-16 bg-purple-100 rounded-full opacity-20"
+   43            animate={{
+
+   53          <motion.div 
+   54:           className="absolute bottom-20 right-10 w-24 h-24 bg-purple-200 rounded-full opacity-10"
+   55            animate={{
+
+   75            <motion.div
+   76:             className="inline-flex items-center justify-center bg-purple-100 text-purple-700 px-4 py-2 rounded-full mb-4"
+   77              initial={{ scale: 0.9 }}
+
+  125                  >
+  126:                   <ChevronDown className="w-5 h-5 text-purple-500" />
+  127                  </motion.div>
+
+  162              whileTap={{ scale: 0.98 }}
+  163:             className="inline-flex items-center justify-center px-6 py-3 bg-purple-600 text-white font-medium rounded-lg shadow-md hover:bg-purple-700 transition-all"
+  164            >
+
+godigitify\src\components\Services\Hero.jsx:
+  11              <motion.div
+  12:                 className="absolute top-[-80px] left-[-80px] w-72 h-72 bg-purple-100 rounded-full opacity-30 blur-2xl z-0"
+  13                  animate={{ scale: [1, 1.15, 1], x: [0, 40, 0], y: [0, 30, 0] }}
+
+  16              <motion.div
+  17:                 className="absolute bottom-[-100px] right-[-100px] w-96 h-96 bg-purple-200 rounded-full opacity-20 blur-3xl z-0"
+  18                  animate={{ scale: [1, 1.08, 1], x: [0, -40, 0], y: [0, -30, 0] }}
+
+  21              <motion.div
+  22:                 className="absolute left-1/2 top-1/4 w-16 h-16 rounded-full bg-purple-50 opacity-40 blur-xl z-0"
+  23                  animate={{ y: [0, -30, 0], x: [0, 20, 0] }}
+
+  33                  <motion.span
+  34:                     className="inline-block bg-purple-100 text-purple-700 px-4 py-1 rounded-full text-base font-medium mb-2 mt-4 shadow"
+  35                      initial={{ opacity: 0, y: -10 }}
+
+  47                      <span className="block">What We Offer</span>
+  48:                     <span className="text-purple-600 block">Solutions for Every Digital Need</span>
+  49                  </motion.h1>
+
+  64                  >
+  65:                     <div className="flex-1 bg-white/80 border border-purple-100 rounded-lg shadow-sm p-4 flex items-center gap-3 justify-center">
+  66:                         <Code className="w-6 h-6 text-purple-500" />
+  67                          <div>
+
+  71                      </div>
+  72:                     <div className="flex-1 bg-white/80 border border-purple-100 rounded-lg shadow-sm p-4 flex items-center gap-3 justify-center">
+  73:                         <Palette className="w-6 h-6 text-purple-500" />
+  74                          <div>
+
+  78                      </div>
+  79:                     <div className="flex-1 bg-white/80 border border-purple-100 rounded-lg shadow-sm p-4 flex items-center gap-3 justify-center">
+  80:                         <TrendingUp className="w-6 h-6 text-purple-500" />
+  81                          <div>
+
+  96                          size="lg"
+  97:                         className="bg-purple-600 hover:bg-purple-700 text-white shadow-lg shadow-purple-500/20 transition-all"
+  98                      >
+
+godigitify\src\components\Services\Process.jsx:
+   31        className={`border-0 text-center transition-all duration-500 ${
+   32:         isActive ? "bg-gradient-to-br from-purple-50 to-white shadow-2xl" : "bg-gray-50 hover:shadow-lg"
+   33        }`}
+
+   39              isActive
+   40:               ? "bg-purple-500 text-white shadow-lg shadow-purple-500/50"
+   41:               : "bg-purple-100 text-purple-600 hover:bg-purple-200"
+   42            }`}
+
+   44            <span className="text-2xl font-bold">{step.step}</span>
+   45:           {isActive && <div className="absolute inset-0 rounded-full bg-purple-500 animate-ping opacity-20"></div>}
+   46          </div>
+
+   49          {/* <div
+   50:           className={`text-purple-500 mb-4 flex justify-center transition-transform duration-300 ${
+   51              isActive ? "scale-110" : ""
+
+   59            className={`text-lg font-bold mb-3 transition-colors duration-300 ${
+   60:             isActive ? "text-purple-600" : "text-black"
+   61            }`}
+
+   68          {isActive && (
+   69:           <div className="mt-4 flex items-center justify-center text-purple-500 animate-fade-in-up">
+   70              <Sparkles className="w-4 h-4 mr-2" />
+
+  119          <div className="absolute inset-0">
+  120:           <div className="absolute top-20 right-20 w-64 h-64 bg-gradient-to-r from-purple-100 to-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-float"></div>
+  121            <div className="absolute bottom-20 left-20 w-64 h-64 bg-gradient-to-r from-blue-100 to-blue-200 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-float animation-delay-4000"></div>
+
+  125            <div className="text-center mb-16">
+  126:             <Badge className="bg-purple-100 text-purple-700 mb-4">Our Process</Badge>
+  127              <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">How We Work</h2>
+
+  146            {/* Process Connection Lines */}
+  147:           {/* <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-200 via-purple-400 to-purple-200 transform -translate-y-1/2 opacity-10 "></div> */}
+  148          </div>
+
+godigitify\src\components\Services\Services.jsx:
+   98                    <div className="absolute top-4 left-4 bg-white rounded-full p-3 shadow-lg">
+   99:                     <div className="text-purple-500">{service.icon}</div>
+  100                    </div>
+
+  107                        <li key={idx} className="flex items-center text-sm text-gray-500">
+  108:                         <CheckCircle className="w-4 h-4 text-purple-500 mr-2" />
+  109                          {feature}
+
+  113                    <Link href={service.link}>
+  114:                     <Button className="w-full cursor-pointer bg-purple-500 hover:bg-purple-600 text-white group">
+  115                        Learn More
+
+godigitify\src\components\Services\WhyUs.jsx:
+   42      return (
+   43:         <section className="relative py-20 bg-gradient-to-br from-purple-50 via-white to-purple-100 overflow-hidden">
+   44              {/* Decorative blurred circles */}
+   45              <motion.div
+   46:                 className="absolute -top-16 -left-16 w-56 h-56 bg-purple-100 rounded-full opacity-30 blur-2xl"
+   47                  animate={{ scale: [1, 1.1, 1] }}
+
+   50              <motion.div
+   51:                 className="absolute bottom-0 right-0 w-72 h-72 bg-purple-200 rounded-full opacity-20 blur-3xl"
+   52                  animate={{ scale: [1, 1.08, 1] }}
+
+   56                  <div className="text-center mb-16">
+   57:                     <Badge className="bg-purple-100 text-purple-700 mb-4 text-base px-4 py-2 shadow-sm">
+   58                          Why Choose Us
+
+   91                                          <motion.div
+   92:                                             className="flex-shrink-0 w-16 h-16 rounded-full bg-white border-4 border-purple-100 flex items-center justify-center shadow-lg group-hover:bg-purple-50 transition-colors duration-300"
+   93                                              whileHover={{ scale: 1.1, rotate: 8 }}
+
+   95                                          >
+   96:                                             <span className="text-purple-500">{item.icon}</span>
+   97                                          </motion.div>
+
+   99                                          {index !== whyChooseUs.length - 1 && (
+  100:                                             <div className="w-1 h-8 bg-gradient-to-b from-purple-200 to-purple-400 opacity-40 rounded-full mt-2" />
+  101                                          )}
+
+  103                                      {/* Content */}
+  104:                                     <div className="bg-white/80 backdrop-blur-md rounded-xl px-6 py-4 mt-4 shadow-md border border-purple-50 w-full group-hover:bg-purple-50/60 transition-colors duration-300">
+  105:                                         <h3 className="text-lg md:text-lg font-bold text-black mb-1 group-hover:text-purple-600 transition-colors duration-300">
+  106                                              {item.title}
